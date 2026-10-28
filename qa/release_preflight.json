@@ -4,7 +4,7 @@
   "unit_tests": {"passed": 4, "failed": 0},
   "gui_regression_tests": {"passed": 2, "failed": 0},
   "data_structure_check": {"ok": true, "cases": 21, "train_states": 370, "validation_states": 75, "test_states": 74},
-  "packaging": {"original_data_files_sha256_verified": 1284, "original_data_bytes": 38721671791, "data_archives": 43, "numerical_data_changed": false, "split_changed": false},
+  "packaging": {"original_data_files_sha256_verified": 1284, "original_data_bytes": 38721671791, "archive_index": "release_manifest.json", "numerical_data_changed": false, "split_changed": false},
   "weights_offline_downloader": {"sha256_verified": true, "safe_extraction_passed": true, "models": ["E0", "E1", "E2"]},
   "public_source": {"anonymous_clone_passed": true, "repository": "https://github.com/clawxiaobai/CG-SVPNet"},
   "full_retraining_performed": false,

@@ -1,0 +1,11 @@
+{
+  "data_check_button": true,
+  "background_process_completed": true,
+  "controls_reenabled": true,
+  "output": "qa\\gui_check\\check_E0_paper_20261022_114656_500301",
+  "status": {
+    "stage": "completed",
+    "elapsed_seconds": 1.5892233848571777,
+    "message": "数据校验通过。本次为结构/大小校验，未重新计算全量哈希。"
+  }
+}

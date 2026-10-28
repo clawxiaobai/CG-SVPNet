@@ -1,0 +1,90 @@
+[
+  {
+    "source_file": "dataset_mpm.py",
+    "source_sha256": "a32889701141882307b881906beaf94ccd3f186baf1fe2326b92a3eb8d9c2d13",
+    "symbols": [
+      "MPM_FEATURE_SCALES",
+      "MPM_STATE_TARGET_SCALES",
+      "build_target_condition",
+      "get_final_punch_translation",
+      "MPMFirstFrameDataset",
+      "load_case_assets_mpm"
+    ]
+  },
+  {
+    "source_file": "train_neuralmpm_forge_v1.py",
+    "source_sha256": "8415f19831dff460e6468dce617c4d00dbbc35c994a82812df85bbf46887137c",
+    "symbols": [
+      "ResBlock",
+      "GridUNet"
+    ]
+  },
+  {
+    "source_file": "model_MinkUNetXt_mpm.py",
+    "source_sha256": "9069998ed8ff7854154ebea0ae66bf2d82f7bf1f7189cc979aeaf7178466db7b",
+    "symbols": [
+      "RigidMoldLayer"
+    ]
+  },
+  {
+    "source_file": "train_simplified_mpm_baselines_v4_moldsdf.py",
+    "source_sha256": "2af62b9a0c57cfc853c91c9d2f7b90a7cb1fa4269f30af9efc51881424ce23b1",
+    "symbols": [
+      "MoldGridMixin"
+    ]
+  },
+  {
+    "source_file": "train_coin_v49style_decoder_ablation.py",
+    "source_sha256": "488311ceb06e2d0ebe05d15a1b1fa4506f7bb326abdaa0106370dcc180b4e125",
+    "symbols": [
+      "DECODER_MODES",
+      "RESIDUAL_DECODER_MODES",
+      "CONTINUOUS_FOURIER_MODES",
+      "LOCAL_LINEAR_MODES",
+      "LOCAL_QUADRATIC_MODES",
+      "LOCAL_FOURIER_MODES",
+      "CoinInitialMoldModel"
+    ]
+  },
+  {
+    "source_file": "train_coin_equiv_state_multimodel.py",
+    "source_sha256": "71d526c566ae3600de30022dd2d81563b14ea62a074b26ba6650de3b86f17511",
+    "symbols": [
+      "REQUESTED_MODES",
+      "_softplus_inverse",
+      "CoinEquivalentStateModel"
+    ]
+  },
+  {
+    "source_file": "train_coin_v49style_decoder_ablation.py",
+    "source_sha256": "488311ceb06e2d0ebe05d15a1b1fa4506f7bb326abdaa0106370dcc180b4e125",
+    "symbols": [
+      "seed_all",
+      "move_batch"
+    ]
+  },
+  {
+    "source_file": "train_coin_e5_equiv_state.py",
+    "source_sha256": "c09f1e27582d7a8580b585479c2e4b5602471d48ab2b93230d836615dd16af36",
+    "symbols": [
+      "STATE_FIELDS",
+      "STATE_NAMES",
+      "batch_one",
+      "move_state_batch",
+      "make_state_dataset",
+      "_new_accumulator",
+      "_update_accumulator",
+      "_finish_accumulator"
+    ]
+  },
+  {
+    "source_file": "train_coin_equiv_state_multimodel.py",
+    "source_sha256": "71d526c566ae3600de30022dd2d81563b14ea62a074b26ba6650de3b86f17511",
+    "symbols": [
+      "multitask_loss",
+      "_selection_score",
+      "evaluate",
+      "train"
+    ]
+  }
+]

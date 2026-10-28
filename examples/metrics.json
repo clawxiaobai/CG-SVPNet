@@ -1,0 +1,65 @@
+[
+  {
+    "model": "E0",
+    "scope": "case16 last frame only; not the whole test set or pooled Final window",
+    "metrics": {
+      "equiv_strain_rmse": "0.16709173906744046",
+      "equiv_strain_mae": "0.11113297191830446",
+      "equiv_strain_zero_rmse": "0.7265044346821988",
+      "equiv_strain_negative_fraction": "0.0",
+      "effective_stress_rmse": "1.843944346419566",
+      "effective_stress_mae": "1.1424675378272255",
+      "effective_stress_zero_rmse": "36.541199825482195",
+      "effective_stress_negative_fraction": "0.0",
+      "disp_rmse": "0.2529629989085307",
+      "case": "case_16",
+      "step": "24",
+      "solver_step_id": "111555",
+      "progress": "1.0",
+      "particles": "1526546"
+    },
+    "source": "qa/integration/20261022_103333/E0_paper_predict_case16_final"
+  },
+  {
+    "model": "E1",
+    "scope": "case16 last frame only; not the whole test set or pooled Final window",
+    "metrics": {
+      "equiv_strain_rmse": "0.1573750549506633",
+      "equiv_strain_mae": "0.10492170723974253",
+      "equiv_strain_zero_rmse": "0.7265044346821988",
+      "equiv_strain_negative_fraction": "0.0",
+      "effective_stress_rmse": "1.7708050645941564",
+      "effective_stress_mae": "1.0119965267997164",
+      "effective_stress_zero_rmse": "36.541199825482195",
+      "effective_stress_negative_fraction": "0.0",
+      "disp_rmse": "0.3397816031992375",
+      "case": "case_16",
+      "step": "24",
+      "solver_step_id": "111555",
+      "progress": "1.0",
+      "particles": "1526546"
+    },
+    "source": "qa/integration/20261022_103333/E1_paper_predict_case16_final"
+  },
+  {
+    "model": "E2",
+    "scope": "case16 last frame only; not the whole test set or pooled Final window",
+    "metrics": {
+      "equiv_strain_rmse": "0.16044472431588191",
+      "equiv_strain_mae": "0.10524828190568775",
+      "equiv_strain_zero_rmse": "0.7265044346821988",
+      "equiv_strain_negative_fraction": "0.0",
+      "effective_stress_rmse": "1.784740515317481",
+      "effective_stress_mae": "1.0400372802391804",
+      "effective_stress_zero_rmse": "36.541199825482195",
+      "effective_stress_negative_fraction": "0.0",
+      "disp_rmse": "0.23747375839881354",
+      "case": "case_16",
+      "step": "24",
+      "solver_step_id": "111555",
+      "progress": "1.0",
+      "particles": "1526546"
+    },
+    "source": "qa/integration/20261022_103333/E2_paper_predict_case16_final"
+  }
+]

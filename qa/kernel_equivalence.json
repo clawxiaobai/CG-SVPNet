@@ -1,0 +1,23 @@
+[
+  {
+    "model": "E0",
+    "initialization_bitwise_equal": true,
+    "max_forward_abs_difference": 0.0,
+    "loss_abs_difference": 0.0,
+    "max_gradient_abs_difference": 0.0
+  },
+  {
+    "model": "E1",
+    "initialization_bitwise_equal": true,
+    "max_forward_abs_difference": 0.0,
+    "loss_abs_difference": 0.0,
+    "max_gradient_abs_difference": 0.0
+  },
+  {
+    "model": "E2",
+    "initialization_bitwise_equal": true,
+    "max_forward_abs_difference": 0.0,
+    "loss_abs_difference": 0.0,
+    "max_gradient_abs_difference": 0.0
+  }
+]

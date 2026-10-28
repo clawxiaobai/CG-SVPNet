@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "Please cite this versioned reproduction repository and the associated article when available."
+type: software
+title: "CG-SVPNet: five-output E0/E1/E2 forging reproduction"
+version: 1.0.0
+date-released: 2026-10-28
+authors:
+  - family-names: Chen
+    given-names: Dewang
+    affiliation: "School of Mechanical Engineering, Jiangsu University"
+  - family-names: Xu
+    given-names: Jiangping
+    affiliation: "School of Mechanical Engineering, Jiangsu University"
+repository-code: "https://github.com/clawxiaobai/CG-SVPNet"
+url: "https://github.com/clawxiaobai/CG-SVPNet/releases/tag/v1.0.0"
+abstract: "Independent reproduction application, original weights, fixed case split and complete processed closed-die data for joint displacement, equivalent-strain and equivalent-stress prediction with E0, E1 and E2."

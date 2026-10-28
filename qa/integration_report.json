@@ -1,0 +1,101 @@
+{
+  "full_retraining_performed": false,
+  "tests": [
+    {
+      "model": "E0",
+      "test": "smoke_train",
+      "exit_code": 0,
+      "seconds": 58.74286937713623,
+      "output": "qa/integration/20261022_103333/E0_smoke_train",
+      "prediction_states": {
+        "val": 1
+      },
+      "npz_files": 1,
+      "vtu_files": 1,
+      "png_files": 3
+    },
+    {
+      "model": "E0",
+      "test": "paper_predict_case16_final",
+      "exit_code": 0,
+      "seconds": 38.32132267951965,
+      "output": "qa/integration/20261022_103333/E0_paper_predict_case16_final",
+      "prediction_states": {
+        "test": 2
+      },
+      "npz_files": 2,
+      "vtu_files": 2,
+      "png_files": 6,
+      "absolute_metric_differences": {
+        "disp_rmse": 0.0,
+        "equiv_strain_rmse": 0.0,
+        "effective_stress_rmse": 0.0
+      },
+      "reference_match": true
+    },
+    {
+      "model": "E1",
+      "test": "smoke_train",
+      "exit_code": 0,
+      "seconds": 58.337536096572876,
+      "output": "qa/integration/20261022_103333/E1_smoke_train",
+      "prediction_states": {
+        "val": 1
+      },
+      "npz_files": 1,
+      "vtu_files": 1,
+      "png_files": 3
+    },
+    {
+      "model": "E1",
+      "test": "paper_predict_case16_final",
+      "exit_code": 0,
+      "seconds": 35.44270610809326,
+      "output": "qa/integration/20261022_103333/E1_paper_predict_case16_final",
+      "prediction_states": {
+        "test": 2
+      },
+      "npz_files": 2,
+      "vtu_files": 2,
+      "png_files": 6,
+      "absolute_metric_differences": {
+        "disp_rmse": 0.0,
+        "equiv_strain_rmse": 0.0,
+        "effective_stress_rmse": 0.0
+      },
+      "reference_match": true
+    },
+    {
+      "model": "E2",
+      "test": "smoke_train",
+      "exit_code": 0,
+      "seconds": 58.750184774398804,
+      "output": "qa/integration/20261022_103333/E2_smoke_train",
+      "prediction_states": {
+        "val": 1
+      },
+      "npz_files": 1,
+      "vtu_files": 1,
+      "png_files": 3
+    },
+    {
+      "model": "E2",
+      "test": "paper_predict_case16_final",
+      "exit_code": 0,
+      "seconds": 35.132906913757324,
+      "output": "qa/integration/20261022_103333/E2_paper_predict_case16_final",
+      "prediction_states": {
+        "test": 2
+      },
+      "npz_files": 2,
+      "vtu_files": 2,
+      "png_files": 6,
+      "absolute_metric_differences": {
+        "disp_rmse": 0.0,
+        "equiv_strain_rmse": 0.0,
+        "effective_stress_rmse": 0.0
+      },
+      "reference_match": true
+    }
+  ]
+}

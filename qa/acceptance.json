@@ -1,0 +1,166 @@
+{
+  "ok": true,
+  "python": "3.13.0 | packaged by conda-forge | (main, Nov 27 2024, 19:03:49) [MSC v.1942 64 bit (AMD64)]",
+  "environment": {
+    "pip": "24.2",
+    "torch": "2.7.1+cu118",
+    "mpmath": "1.3.0",
+    "tzdata": "2026.5",
+    "typing_extensions": "4.16.0",
+    "sympy": "1.14.0",
+    "six": "1.17.0",
+    "setuptools": "84.2.1",
+    "pyparsing": "3.3.3",
+    "pillow": "11.3.0",
+    "packaging": "26.3",
+    "numpy": "2.2.5",
+    "networkx": "3.7",
+    "MarkupSafe": "3.0.4",
+    "kiwisolver": "1.5.1",
+    "fsspec": "2026.9.0",
+    "fonttools": "4.67.0",
+    "filelock": "4.2.4",
+    "cycler": "0.12.1",
+    "python-dateutil": "3.0.0",
+    "Jinja2": "3.1.6",
+    "contourpy": "1.4.0",
+    "matplotlib": "3.10.0"
+  },
+  "environment_note": "Project-local venv; exact installed Torch 2.7.1+cu118 binary distribution copied locally, other dependencies installed into the venv. Teacher setup uses official wheels.",
+  "data_files": 1284,
+  "data_bytes": 38721671791,
+  "data_copy_sha256_verified": true,
+  "data_size_rechecked": true,
+  "manifest_sha256": "5697a2994aa192cb9a26f3d877728918ec2b731f95d798957d9f12fcf1b9ba51",
+  "syntax_files_checked": 29,
+  "unit_tests_passed": true,
+  "gui_check_passed": true,
+  "kernel_equivalence": [
+    {
+      "model": "E0",
+      "initialization_bitwise_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "max_gradient_abs_difference": 0.0
+    },
+    {
+      "model": "E1",
+      "initialization_bitwise_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "max_gradient_abs_difference": 0.0
+    },
+    {
+      "model": "E2",
+      "initialization_bitwise_equal": true,
+      "max_forward_abs_difference": 0.0,
+      "loss_abs_difference": 0.0,
+      "max_gradient_abs_difference": 0.0
+    }
+  ],
+  "integration": {
+    "full_retraining_performed": false,
+    "tests": [
+      {
+        "model": "E0",
+        "test": "smoke_train",
+        "exit_code": 0,
+        "seconds": 58.74286937713623,
+        "output": "qa/integration/20261022_103333/E0_smoke_train",
+        "prediction_states": {
+          "val": 1
+        },
+        "npz_files": 1,
+        "vtu_files": 1,
+        "png_files": 3
+      },
+      {
+        "model": "E0",
+        "test": "paper_predict_case16_final",
+        "exit_code": 0,
+        "seconds": 38.32132267951965,
+        "output": "qa/integration/20261022_103333/E0_paper_predict_case16_final",
+        "prediction_states": {
+          "test": 2
+        },
+        "npz_files": 2,
+        "vtu_files": 2,
+        "png_files": 6,
+        "absolute_metric_differences": {
+          "disp_rmse": 0.0,
+          "equiv_strain_rmse": 0.0,
+          "effective_stress_rmse": 0.0
+        },
+        "reference_match": true
+      },
+      {
+        "model": "E1",
+        "test": "smoke_train",
+        "exit_code": 0,
+        "seconds": 58.337536096572876,
+        "output": "qa/integration/20261022_103333/E1_smoke_train",
+        "prediction_states": {
+          "val": 1
+        },
+        "npz_files": 1,
+        "vtu_files": 1,
+        "png_files": 3
+      },
+      {
+        "model": "E1",
+        "test": "paper_predict_case16_final",
+        "exit_code": 0,
+        "seconds": 35.44270610809326,
+        "output": "qa/integration/20261022_103333/E1_paper_predict_case16_final",
+        "prediction_states": {
+          "test": 2
+        },
+        "npz_files": 2,
+        "vtu_files": 2,
+        "png_files": 6,
+        "absolute_metric_differences": {
+          "disp_rmse": 0.0,
+          "equiv_strain_rmse": 0.0,
+          "effective_stress_rmse": 0.0
+        },
+        "reference_match": true
+      },
+      {
+        "model": "E2",
+        "test": "smoke_train",
+        "exit_code": 0,
+        "seconds": 58.750184774398804,
+        "output": "qa/integration/20261022_103333/E2_smoke_train",
+        "prediction_states": {
+          "val": 1
+        },
+        "npz_files": 1,
+        "vtu_files": 1,
+        "png_files": 3
+      },
+      {
+        "model": "E2",
+        "test": "paper_predict_case16_final",
+        "exit_code": 0,
+        "seconds": 35.132906913757324,
+        "output": "qa/integration/20261022_103333/E2_paper_predict_case16_final",
+        "prediction_states": {
+          "test": 2
+        },
+        "npz_files": 2,
+        "vtu_files": 2,
+        "png_files": 6,
+        "absolute_metric_differences": {
+          "disp_rmse": 0.0,
+          "equiv_strain_rmse": 0.0,
+          "effective_stress_rmse": 0.0
+        },
+        "reference_match": true
+      }
+    ]
+  },
+  "vtk_files_verified": 9,
+  "full_500_epoch_retraining_performed": false,
+  "full_74_state_test_recomputed": false,
+  "note": "Integration uses one reduced training epoch per model and two full-particle final-window frames of case16 with original checkpoints; no other running training jobs were changed."
+}

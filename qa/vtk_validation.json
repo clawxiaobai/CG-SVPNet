@@ -1,0 +1,123 @@
+{
+  "ok": true,
+  "reader": "PyVista/VTK",
+  "files": [
+    {
+      "file": "qa/integration/20261022_103333/E0_smoke_train/predictions/val/case_15/step_000027.vtu",
+      "particles": 2048,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E0_paper_predict_case16_final/predictions/test/case_16/step_000023.vtu",
+      "particles": 1526546,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E0_paper_predict_case16_final/predictions/test/case_16/step_000024.vtu",
+      "particles": 1526546,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E1_smoke_train/predictions/val/case_15/step_000027.vtu",
+      "particles": 2048,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E1_paper_predict_case16_final/predictions/test/case_16/step_000023.vtu",
+      "particles": 1526546,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E1_paper_predict_case16_final/predictions/test/case_16/step_000024.vtu",
+      "particles": 1526546,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E2_smoke_train/predictions/val/case_15/step_000027.vtu",
+      "particles": 2048,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E2_paper_predict_case16_final/predictions/test/case_16/step_000023.vtu",
+      "particles": 1526546,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    },
+    {
+      "file": "qa/integration/20261022_103333/E2_paper_predict_case16_final/predictions/test/case_16/step_000024.vtu",
+      "particles": 1526546,
+      "checks": {
+        "point_count": true,
+        "reference_geometry": true,
+        "particle_rows": true,
+        "predicted_displacement": true,
+        "predicted_strain": true,
+        "predicted_stress": true,
+        "reference_stress": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.py[cod]
+runs/
+qa/integration/
+data/closed_die/
+downloads/
+pretrained/*/*.pth
+examples/*/*.npz
+examples/*/*.vtu
+*.tmp
+*.log
+startup_error.log

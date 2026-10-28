@@ -1,0 +1,374 @@
+{
+  "schema": "cgsvp.release.v1",
+  "repository": "clawxiaobai/CG-SVPNet",
+  "tag": "v1.0.0",
+  "release_url": "https://github.com/clawxiaobai/CG-SVPNet/releases/tag/v1.0.0",
+  "data_files": 1284,
+  "data_bytes": 38721671791,
+  "dataset_manifest_sha256": "5697a2994aa192cb9a26f3d877728918ec2b731f95d798957d9f12fcf1b9ba51",
+  "assets": [
+    {
+      "name": "original_weights_E0_E1_E2.zip",
+      "scope": "weights",
+      "bytes": 63924157,
+      "sha256": "e5bbf15d1a049b44ba3a368ef6ae6d29dc92d9946151487e994fea1d8d53c4cf",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/original_weights_E0_E1_E2.zip",
+      "members": 3
+    },
+    {
+      "name": "paraview_case16_final_examples.zip",
+      "scope": "examples",
+      "bytes": 838279973,
+      "sha256": "1aacbfd8aa7bb385ab2482f009a4886c9d3722d51218b5f8985d5802876382ea",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/paraview_case16_final_examples.zip",
+      "members": 29
+    },
+    {
+      "name": "closed_die_001_of_043.zip",
+      "scope": "data",
+      "bytes": 923267988,
+      "sha256": "a3188d4c3ca7ba049005341c44840d603ccb8371f6e6aea5c9efd06e6bbf40c4",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_001_of_043.zip",
+      "members": 23
+    },
+    {
+      "name": "closed_die_002_of_043.zip",
+      "scope": "data",
+      "bytes": 900339341,
+      "sha256": "3246d7a5de315c19b7a4d796f9bd5210e3d6af6cf6bbaed04ecf9daaf79de9c8",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_002_of_043.zip",
+      "members": 21
+    },
+    {
+      "name": "closed_die_003_of_043.zip",
+      "scope": "data",
+      "bytes": 914971312,
+      "sha256": "24df338b940d089325e0ce900478f94f7cd5337067154bf7aaeb1c279af83dd5",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_003_of_043.zip",
+      "members": 14
+    },
+    {
+      "name": "closed_die_004_of_043.zip",
+      "scope": "data",
+      "bytes": 928365699,
+      "sha256": "e161d3d034afa1fdeb309487ae9d3b6b00f92dd469eb7a2d5340dd943c50ab2e",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_004_of_043.zip",
+      "members": 31
+    },
+    {
+      "name": "closed_die_005_of_043.zip",
+      "scope": "data",
+      "bytes": 868574969,
+      "sha256": "8f0bfa4926dda56992d660e74b376b8935f4c8fd8e1685bb09ff31d5a8ade537",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_005_of_043.zip",
+      "members": 12
+    },
+    {
+      "name": "closed_die_006_of_043.zip",
+      "scope": "data",
+      "bytes": 940210693,
+      "sha256": "79c959dd8217a697672e99872bbf2efc9bdd78413dd6dcadeb93c66b7da051b7",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_006_of_043.zip",
+      "members": 18
+    },
+    {
+      "name": "closed_die_007_of_043.zip",
+      "scope": "data",
+      "bytes": 903563281,
+      "sha256": "c288bbe6e43badbfb813180117a34349073b73d15c90c397ff807f1b264dc2fd",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_007_of_043.zip",
+      "members": 14
+    },
+    {
+      "name": "closed_die_008_of_043.zip",
+      "scope": "data",
+      "bytes": 874969153,
+      "sha256": "1907d6f4f25910cf3c5445af57179dada48ba0158f7d963499f5328b59454e99",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_008_of_043.zip",
+      "members": 12
+    },
+    {
+      "name": "closed_die_009_of_043.zip",
+      "scope": "data",
+      "bytes": 911770275,
+      "sha256": "852a4a06379b422bf36ebbf06e276f8551921850c3e157e72c6b9bad9685696c",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_009_of_043.zip",
+      "members": 22
+    },
+    {
+      "name": "closed_die_010_of_043.zip",
+      "scope": "data",
+      "bytes": 937216050,
+      "sha256": "680e634698c3b45a57bd5746c7380d2e74816e1e7ebccfd953429c3c1cf85b24",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_010_of_043.zip",
+      "members": 22
+    },
+    {
+      "name": "closed_die_011_of_043.zip",
+      "scope": "data",
+      "bytes": 938462942,
+      "sha256": "f2b8a28a1b3cdfcb449d4107e6728a91eecea6270329552fa6c61bfa195ab435",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_011_of_043.zip",
+      "members": 16
+    },
+    {
+      "name": "closed_die_012_of_043.zip",
+      "scope": "data",
+      "bytes": 943068296,
+      "sha256": "5444a5b0dee3f362d1c0a679086cc4caaef93f8f1eaa129e747245194e8e55b2",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_012_of_043.zip",
+      "members": 22
+    },
+    {
+      "name": "closed_die_013_of_043.zip",
+      "scope": "data",
+      "bytes": 889800920,
+      "sha256": "0662d14d879249099a3d4e51ceef98ceb03ad9256ffe37c1dbb304894e8b8bd7",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_013_of_043.zip",
+      "members": 15
+    },
+    {
+      "name": "closed_die_014_of_043.zip",
+      "scope": "data",
+      "bytes": 884281903,
+      "sha256": "a05af1ca9eef59f6f10b299f32fe8ac66ab7bb6d61ecf2b1b9eac246d93c3c1b",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_014_of_043.zip",
+      "members": 21
+    },
+    {
+      "name": "closed_die_015_of_043.zip",
+      "scope": "data",
+      "bytes": 925081794,
+      "sha256": "c0b892358c62f316b4c6a0b0fd54777c1b7bf41173710789aa03ec10e6a40e59",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_015_of_043.zip",
+      "members": 15
+    },
+    {
+      "name": "closed_die_016_of_043.zip",
+      "scope": "data",
+      "bytes": 882960801,
+      "sha256": "f2fe4149d36a463d5ab5a9baa44491b2fe22e14b328ead48b6ab2de4fae43a22",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_016_of_043.zip",
+      "members": 21
+    },
+    {
+      "name": "closed_die_017_of_043.zip",
+      "scope": "data",
+      "bytes": 937725227,
+      "sha256": "1efef04ec5193708b940e7bcaaba03da68114e3b3f250998291396202dc5d590",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_017_of_043.zip",
+      "members": 21
+    },
+    {
+      "name": "closed_die_018_of_043.zip",
+      "scope": "data",
+      "bytes": 931260279,
+      "sha256": "55da9be57e583e4993eacea5b8e694e301752e90b47501bfd4ec4b24b0d62d6a",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_018_of_043.zip",
+      "members": 13
+    },
+    {
+      "name": "closed_die_019_of_043.zip",
+      "scope": "data",
+      "bytes": 902765935,
+      "sha256": "08b15a437d8c73997a207b200e35080d4011d904828f14d41e2e63a0abd8997e",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_019_of_043.zip",
+      "members": 20
+    },
+    {
+      "name": "closed_die_020_of_043.zip",
+      "scope": "data",
+      "bytes": 898384519,
+      "sha256": "885736e9e2c138612ab3786b7f3b8a7b5f9c60e78c2c4176bed80cd69daa35ff",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_020_of_043.zip",
+      "members": 16
+    },
+    {
+      "name": "closed_die_021_of_043.zip",
+      "scope": "data",
+      "bytes": 940769784,
+      "sha256": "6e5fab4cb59faefc16aa1f74faa5aa9729b55d7760b71cd114f0cf74b10a2a5b",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_021_of_043.zip",
+      "members": 20
+    },
+    {
+      "name": "closed_die_022_of_043.zip",
+      "scope": "data",
+      "bytes": 943442725,
+      "sha256": "171b84a4df710f43b1505af03d950cc6760ad1b653c7dd91dd3622687afd43c1",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_022_of_043.zip",
+      "members": 14
+    },
+    {
+      "name": "closed_die_023_of_043.zip",
+      "scope": "data",
+      "bytes": 899534657,
+      "sha256": "f1903a0c56d9c36aa1c5070d2ae9b650837b40f30e60297c6d203841fd3dd1b4",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_023_of_043.zip",
+      "members": 18
+    },
+    {
+      "name": "closed_die_024_of_043.zip",
+      "scope": "data",
+      "bytes": 887999865,
+      "sha256": "1e8fd41ebee0f8940dd0d08467ab15860a74ca1e95a0eb7e7a0db0f1e63b054a",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_024_of_043.zip",
+      "members": 12
+    },
+    {
+      "name": "closed_die_025_of_043.zip",
+      "scope": "data",
+      "bytes": 931422039,
+      "sha256": "5c743e3bfcc305e673ee192a47b25cea923f78eab43e8a0e6292b0d3cae40621",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_025_of_043.zip",
+      "members": 22
+    },
+    {
+      "name": "closed_die_026_of_043.zip",
+      "scope": "data",
+      "bytes": 914422324,
+      "sha256": "883ba227aee8012c11f23cb66e79cae7b4cf6f53f93b48eaa12fc0aaa7135df5",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_026_of_043.zip",
+      "members": 22
+    },
+    {
+      "name": "closed_die_027_of_043.zip",
+      "scope": "data",
+      "bytes": 929265422,
+      "sha256": "19f608c1053ceeea9e73f89b519ae3a4b486600e9a59fc0d3a05e176b7301c51",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_027_of_043.zip",
+      "members": 17
+    },
+    {
+      "name": "closed_die_028_of_043.zip",
+      "scope": "data",
+      "bytes": 900408413,
+      "sha256": "916bf7cfdc826a8bd7e03967d61cd5de348167a2182cb0accfb96f6551ab6630",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_028_of_043.zip",
+      "members": 22
+    },
+    {
+      "name": "closed_die_029_of_043.zip",
+      "scope": "data",
+      "bytes": 941886613,
+      "sha256": "97d67070b97bad2f31794bf806f2e8383e04db03d2757082640f244c94962558",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_029_of_043.zip",
+      "members": 19
+    },
+    {
+      "name": "closed_die_030_of_043.zip",
+      "scope": "data",
+      "bytes": 907405810,
+      "sha256": "7ac6c240320b835e6fe5adb4b635f15df708ace2a718137d2b0ed2620b638a6b",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_030_of_043.zip",
+      "members": 18
+    },
+    {
+      "name": "closed_die_031_of_043.zip",
+      "scope": "data",
+      "bytes": 878239839,
+      "sha256": "f58b4a56978a656ffe73e71051b6c23f006b7692e0f8c715cb06cc0ebea2ab47",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_031_of_043.zip",
+      "members": 20
+    },
+    {
+      "name": "closed_die_032_of_043.zip",
+      "scope": "data",
+      "bytes": 918314296,
+      "sha256": "b1247a755c6077a36882763e56612c1b0af7061f33b48714f4d0662e2aaf0d85",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_032_of_043.zip",
+      "members": 13
+    },
+    {
+      "name": "closed_die_033_of_043.zip",
+      "scope": "data",
+      "bytes": 943417912,
+      "sha256": "06ccf031a93907f5f900fa3ceb3155b043a05669a5fdae2c0cff374936da259d",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_033_of_043.zip",
+      "members": 16
+    },
+    {
+      "name": "closed_die_034_of_043.zip",
+      "scope": "data",
+      "bytes": 902325878,
+      "sha256": "fee057ca012d7c36304609828910b6dfbe9dcdaf2b4405ff7f4fdff9e0ebf2d8",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_034_of_043.zip",
+      "members": 19
+    },
+    {
+      "name": "closed_die_035_of_043.zip",
+      "scope": "data",
+      "bytes": 892421615,
+      "sha256": "7ba4686e7113a5c1062251a09e4be5190696110691ba61625140d7ac4b140106",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_035_of_043.zip",
+      "members": 21
+    },
+    {
+      "name": "closed_die_036_of_043.zip",
+      "scope": "data",
+      "bytes": 891324573,
+      "sha256": "66e31d7b57422e0c5f45e41c677e032c4caa99269b26a731e315ecc0e113643f",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_036_of_043.zip",
+      "members": 13
+    },
+    {
+      "name": "closed_die_037_of_043.zip",
+      "scope": "data",
+      "bytes": 925577424,
+      "sha256": "c2204d378407e6c6bcb6957da05875389d85c8ab17bc1fffdd16e690c6b2c696",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_037_of_043.zip",
+      "members": 16
+    },
+    {
+      "name": "closed_die_038_of_043.zip",
+      "scope": "data",
+      "bytes": 888137017,
+      "sha256": "8049b2c002b2cc9569291e28d56f5ac1f707f49a44aec251ba7410a3bfd67533",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_038_of_043.zip",
+      "members": 19
+    },
+    {
+      "name": "closed_die_039_of_043.zip",
+      "scope": "data",
+      "bytes": 939994070,
+      "sha256": "1234e632a3d74de0cab3bfb9cf4960b787a745e1980929626776460d39738c15",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_039_of_043.zip",
+      "members": 79
+    },
+    {
+      "name": "closed_die_040_of_043.zip",
+      "scope": "data",
+      "bytes": 938546090,
+      "sha256": "3cd2f223282965254f12e8707d377e706676cadd09c41c06015ae15c3616f699",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_040_of_043.zip",
+      "members": 171
+    },
+    {
+      "name": "closed_die_041_of_043.zip",
+      "scope": "data",
+      "bytes": 939849551,
+      "sha256": "13f90e97e6b23083a792e817efc03cbec8a23e351f828a42f0d8234fbde443db",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_041_of_043.zip",
+      "members": 171
+    },
+    {
+      "name": "closed_die_042_of_043.zip",
+      "scope": "data",
+      "bytes": 940991481,
+      "sha256": "408083006e59c2528e24ad036df6772b396d58d8f99db02e171bec913a5f8bd6",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_042_of_043.zip",
+      "members": 158
+    },
+    {
+      "name": "closed_die_043_of_043.zip",
+      "scope": "data",
+      "bytes": 289454446,
+      "sha256": "d951b86959f8b61e5ca79fccf5953ad77311ad4d3c151809e3ed24301b7d9295",
+      "url": "https://github.com/clawxiaobai/CG-SVPNet/releases/download/v1.0.0/closed_die_043_of_043.zip",
+      "members": 16
+    }
+  ],
+  "original_data_content_changed": false,
+  "original_split_changed": false,
+  "verified_source_hashes": true
+}

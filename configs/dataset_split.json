@@ -1,0 +1,11 @@
+{
+  "dataset_type": "closed_die_forging_five_channel",
+  "train": ["case_01", "case_02", "case_03", "case_04", "case_07", "case_08", "case_10", "case_11", "case_12", "case_13", "case_14", "case_18", "case_19", "case_20", "case_21"],
+  "val": ["case_09", "case_06", "case_15"],
+  "test": ["case_05", "case_16", "case_17"],
+  "expected_target_states": {"train": 370, "val": 75, "test": 74},
+  "units": {"position": "mm", "displacement": "mm", "equivalent_strain": "dimensionless", "equivalent_stress": "MPa"},
+  "output_order": ["ux", "uy", "uz", "equivalent_strain", "equivalent_stress"],
+  "state_target_multipliers": {"effstn": 0.2, "effsts": 0.02},
+  "split_source": "Original MPMFirstFrameDataset.split_map (unchanged)"
+}

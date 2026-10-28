@@ -1,0 +1,4 @@
+# Install torch==2.7.1 from the official cu118 index first (setup_environment.cmd).
+numpy==2.2.5
+matplotlib==3.10.0
+pillow==11.3.0

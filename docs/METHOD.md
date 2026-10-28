@@ -50,6 +50,6 @@ RMSE开方前加 `1e-12`。不存在本项目新增的自动损失平衡算法�
 
 `reference/source_provenance.json`记录抽取来源与源文件哈希。核心类/函数从原文件抽取，参数配置和三个最佳权重直接复制。为去除非核心编译扩展，仅将本路径使用的占据计数scatter-add换成原生PyTorch，原二值占据不变。
 
-`tools/compare_original.py`是作者侧工具，需要旧环境，检查三个模型的同种子初始化、前向值、损失及梯度。老师侧不需要旧工作区即可运行主程序和 `tests/test_unit.py`。大数据有独立SHA-256清单；模型及轻量代码文件的发布清单见 `reference/project_manifest.json`。
+作者侧已在旧环境检查三个模型的同种子初始化、前向值、损失及梯度，记录见 `qa/kernel_equivalence.json`。该检查不是对全部测试状态或完整重新训练的重复。读者不需要旧工作区即可运行主程序和 `tests/test_unit.py`。原数据的逐文件SHA-256清单见 `data/dataset_manifest.json`；原权重及数据下载包的校验值见 `release_manifest.json`。
 
 归档的精度是参考实验结果，不是对任意重新训练结果的承诺。完整重新训练的结果必须从该次 `final_metrics.json` 读取，不能复制参考值伪装成本次运行结果。
